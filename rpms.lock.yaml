@@ -606,12 +606,12 @@ arches:
     sourcerpm: gobject-introspection-1.68.0-11.el9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.x86_64.rpm
   - name: golang
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:fc460a714c485ff75534216a166a8a34340ef995ba8cdca4fb318f767ec10fc4
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:d677ba00c48bb5fe3fad01a8f98e76cb23e2a48dc6c5b4a44105e6ccc6f76232
     repoid: rhel-9-for-x86_64-appstream-eus-rpms__9_DOT_4
-    size: 688974
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/golang-1.21.13-12.el9_4.x86_64.rpm
+    size: 689156
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/golang-1.21.13-13.el9_4.x86_64.rpm
   - name: golang
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:ebe422c5e088cda8515cdae4e4c611db6cd37352462ce4f865ab6846d7ba5a0d
@@ -619,13 +619,20 @@ arches:
     size: 1324196
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-1.25.5-2.el9_7.x86_64.rpm
+  - name: golang
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:b554a4e9bb635fcda6af898191436ab7dbb17a90d76b647331fec49e3cde1a23
+    repoid: rhocp-4.22-for-rhel-9-x86_64-rpms
+    size: 1324426
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-1.25.7-1.el9_7.x86_64.rpm
   - name: golang-bin
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:c279949c147db8dbaa0f3f09f7d74f63c2b91c0f96235cd9021e4b0aa682b686
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:9f6b92ab1f7bbf379f4790125a9e931fbbc781e46e664f2edfdd6a8cdf442950
     repoid: rhel-9-for-x86_64-appstream-eus-rpms__9_DOT_4
-    size: 58626990
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/golang-bin-1.21.13-12.el9_4.x86_64.rpm
+    size: 58626378
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/golang-bin-1.21.13-13.el9_4.x86_64.rpm
   - name: golang-bin
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:ad2cff30b96e54019694106ea8831bba8c2b8c737906665e322582aa55ccdf44
@@ -633,6 +640,13 @@ arches:
     size: 38255304
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-bin-1.25.5-2.el9_7.x86_64.rpm
+  - name: golang-bin
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:169accd8939fc22c3e005cf2fc300dcd3f4dfb7dbffc172ee23d28dbb822fc67
+    repoid: rhocp-4.22-for-rhel-9-x86_64-rpms
+    size: 38259745
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-bin-1.25.7-1.el9_7.x86_64.rpm
   - name: golang-race
     evr: 0:1.19.13-1.el9_2
     checksum: sha256:60e2e0e8c010267dbbc8dc21f5fea03329cb8569cf6a5d026b889e84f00b4d37
@@ -647,13 +661,20 @@ arches:
     size: 1771873
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-race-1.25.5-2.el9_7.x86_64.rpm
+  - name: golang-race
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:734fca732791a0f4ee20080c054d910d418e060d61ac25715b694796cd574d13
+    repoid: rhocp-4.22-for-rhel-9-x86_64-rpms
+    size: 1771804
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-race-1.25.7-1.el9_7.x86_64.rpm
   - name: golang-src
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:a9717113b3c8cf95684c38c738a22fe21165a8713d137b6e86893e7c487763c5
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:52ebbc93140baddb2e4e99bcbd2a196cd59700d261acd2ba7d41fa97343c5cf8
     repoid: rhel-9-for-x86_64-appstream-eus-rpms__9_DOT_4
-    size: 13069224
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/golang-src-1.21.13-12.el9_4.noarch.rpm
+    size: 13066849
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/golang-src-1.21.13-13.el9_4.noarch.rpm
   - name: golang-src
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:e7528a3ca424056dc43729472f8efb6fc8c9b04cd4f86403873db2b0e360fb4f
@@ -661,6 +682,13 @@ arches:
     size: 12170725
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-src-1.25.5-2.el9_7.noarch.rpm
+  - name: golang-src
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:e7bf59a08d4d4cafb27ae42015e734aacadf515883e9610fc23825a8de0688d0
+    repoid: rhocp-4.22-for-rhel-9-x86_64-rpms
+    size: 12171111
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/osPackages/g/golang-src-1.25.7-1.el9_7.noarch.rpm
   - name: goversioninfo
     evr: 0:1.4.0-1.el9
     checksum: sha256:c24f5a61fb883f6fdea701e70398d28d2e748f711970e46642b8aaa0fe6c90ee
@@ -759,6 +787,13 @@ arches:
     size: 2194693
     sourcerpm: kernel-5.14.0-427.109.1.el9_4.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.109.1.el9_4.x86_64.rpm
+  - name: kernel-headers
+    evr: 0:5.14.0-427.111.1.el9_4
+    checksum: sha256:a2e7749e6f0ebd28b6facd601654e87cdbab23c8725339adfbef10e8cab40c64
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms__9_DOT_4
+    size: 2128921
+    sourcerpm: kernel-5.14.0-427.111.1.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.111.1.el9_4.x86_64.rpm
   - name: kernel-srpm-macros
     evr: 0:1.0-13.el9
     checksum: sha256:7e891fa264fb538bf4a26aa94e91ff0c3084bf2613e2061dbb6f4f0c26856777
@@ -2320,6 +2355,13 @@ arches:
     size: 25766
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-3.9.18-3.el9_4.9.x86_64.rpm
+  - name: python3
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:b1655156132f0d66bd44f6ebcfc849d81e8fa0d1ac8e17ff45422ac35ccdcec6
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms__9_DOT_4
+    size: 25651
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-3.9.18-3.el9_4.10.x86_64.rpm
   - name: python3-audit
     evr: 0:3.1.2-2.el9
     checksum: sha256:c419389a2939e341c3ab55be65b7315d6b060af9bbe2bd4ef621cb46deb61b46
@@ -2460,6 +2502,13 @@ arches:
     size: 8231933
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.9.x86_64.rpm
+  - name: python3-libs
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:7f6e3416fe07772766460504e7e144046bcd5cf4b5fa170a5f7623123dde65d5
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms__9_DOT_4
+    size: 8230249
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.10.x86_64.rpm
   - name: python3-libselinux
     evr: 0:3.6-1.el9
     checksum: sha256:84aff2ff0c48ca4f5d77223db53a26a16c273b03a9674a2608e1db5d8cd32710
@@ -3472,12 +3521,12 @@ arches:
     sourcerpm: gobject-introspection-1.68.0-11.el9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.ppc64le.rpm
   - name: golang
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:ed0c2ec7d2c3d9d64be353353ce9e337d5cbd28b1448a4118049635e41bd1f81
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:263673b92934b84180d3f4f1d71792582a137be6771ef1ef50dc0506476b0ae1
     repoid: rhel-9-for-ppc64le-appstream-eus-rpms__9_DOT_4
-    size: 689417
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/g/golang-1.21.13-12.el9_4.ppc64le.rpm
+    size: 689587
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/g/golang-1.21.13-13.el9_4.ppc64le.rpm
   - name: golang
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:5d71afb7a021ad73c6adae7e4666acaefee14a4a9279a214db80e2eccb22e9b2
@@ -3485,13 +3534,20 @@ arches:
     size: 1324410
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-1.25.5-2.el9_7.ppc64le.rpm
+  - name: golang
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:a1397d60660a250b4d926eb395be36a35c0abb7ee18fa9afdcd6b88c199f0c40
+    repoid: rhocp-4.22-for-rhel-9-ppc64le-rpms
+    size: 1324209
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-1.25.7-1.el9_7.ppc64le.rpm
   - name: golang-bin
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:730aba3d5080b49726596868718378cc09783c779087d7cb90bace535fecda55
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:91712b3c94cbfe3bb22666c699c7d5d168891889597559bec461b7f889650a78
     repoid: rhel-9-for-ppc64le-appstream-eus-rpms__9_DOT_4
-    size: 54768734
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/g/golang-bin-1.21.13-12.el9_4.ppc64le.rpm
+    size: 54777222
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/g/golang-bin-1.21.13-13.el9_4.ppc64le.rpm
   - name: golang-bin
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:9c3518685c4e73d6b4031f304c276c5027e62fbc20f619b99142c445eb993b65
@@ -3499,6 +3555,13 @@ arches:
     size: 35096703
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-bin-1.25.5-2.el9_7.ppc64le.rpm
+  - name: golang-bin
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:333dc53caa2eea1c765b88edc4e604f10ba90e57e487c9c4ca748420a62eacbc
+    repoid: rhocp-4.22-for-rhel-9-ppc64le-rpms
+    size: 35097684
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-bin-1.25.7-1.el9_7.ppc64le.rpm
   - name: golang-race
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:f5a49f52762e67079d249a541509bc43f9daa91644c957a226ae29b470d64fac
@@ -3506,13 +3569,20 @@ arches:
     size: 1692952
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-race-1.25.5-2.el9_7.ppc64le.rpm
+  - name: golang-race
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:4315a865b0a33b24c4bb5bcc3143c07faedac294b37f0fdfbabdae4002a66f57
+    repoid: rhocp-4.22-for-rhel-9-ppc64le-rpms
+    size: 1692896
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-race-1.25.7-1.el9_7.ppc64le.rpm
   - name: golang-src
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:a9717113b3c8cf95684c38c738a22fe21165a8713d137b6e86893e7c487763c5
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:52ebbc93140baddb2e4e99bcbd2a196cd59700d261acd2ba7d41fa97343c5cf8
     repoid: rhel-9-for-ppc64le-appstream-eus-rpms__9_DOT_4
-    size: 13069224
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/g/golang-src-1.21.13-12.el9_4.noarch.rpm
+    size: 13066849
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/g/golang-src-1.21.13-13.el9_4.noarch.rpm
   - name: golang-src
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:e7528a3ca424056dc43729472f8efb6fc8c9b04cd4f86403873db2b0e360fb4f
@@ -3520,6 +3590,13 @@ arches:
     size: 12170725
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-src-1.25.5-2.el9_7.noarch.rpm
+  - name: golang-src
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:e7bf59a08d4d4cafb27ae42015e734aacadf515883e9610fc23825a8de0688d0
+    repoid: rhocp-4.22-for-rhel-9-ppc64le-rpms
+    size: 12171111
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/ppc64le/appstream/osPackages/g/golang-src-1.25.7-1.el9_7.noarch.rpm
   - name: goversioninfo
     evr: 0:1.4.0-1.el9
     checksum: sha256:5e7152fd4d214e7faa0e725feb005ed5db839cea21789688b7ef1a6870c46201
@@ -3618,6 +3695,13 @@ arches:
     size: 2177893
     sourcerpm: kernel-5.14.0-427.109.1.el9_4.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-427.109.1.el9_4.ppc64le.rpm
+  - name: kernel-headers
+    evr: 0:5.14.0-427.111.1.el9_4
+    checksum: sha256:d11c915d1dc12686cd7ddfd4536202e977fb575e1bb782d3ef0138647770e9da
+    repoid: rhel-9-for-ppc64le-appstream-eus-rpms__9_DOT_4
+    size: 2112213
+    sourcerpm: kernel-5.14.0-427.111.1.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/appstream/os/Packages/k/kernel-headers-5.14.0-427.111.1.el9_4.ppc64le.rpm
   - name: kernel-srpm-macros
     evr: 0:1.0-13.el9
     checksum: sha256:7e891fa264fb538bf4a26aa94e91ff0c3084bf2613e2061dbb6f4f0c26856777
@@ -5186,6 +5270,13 @@ arches:
     size: 25763
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/baseos/os/Packages/p/python3-3.9.18-3.el9_4.9.ppc64le.rpm
+  - name: python3
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:adadbd15607185fa2c954df67795bd5cd8ab784dc6b86031dc356e121b2dbf46
+    repoid: rhel-9-for-ppc64le-baseos-eus-rpms__9_DOT_4
+    size: 25632
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/baseos/os/Packages/p/python3-3.9.18-3.el9_4.10.ppc64le.rpm
   - name: python3-audit
     evr: 0:3.1.2-2.el9
     checksum: sha256:c5f9988bcc9fe1c1b08ceda36229e0a2b838804f431d8ed799f7413d74f2148e
@@ -5326,6 +5417,13 @@ arches:
     size: 8217023
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.9.ppc64le.rpm
+  - name: python3-libs
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:60e7fa64d5b2a4c1c6d86a57d7009c85f2f973c354f592d15f743bc22b244e6e
+    repoid: rhel-9-for-ppc64le-baseos-eus-rpms__9_DOT_4
+    size: 8213951
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/ppc64le/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.10.ppc64le.rpm
   - name: python3-libselinux
     evr: 0:3.6-1.el9
     checksum: sha256:f61d9d08d94d0e84d8cdc51719752febf9df6cc613ce07af155522d7fc545217
@@ -6345,12 +6443,12 @@ arches:
     sourcerpm: gobject-introspection-1.68.0-11.el9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.s390x.rpm
   - name: golang
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:c0d09392c853e890e503b146d54267986943dc8494518663e47739c25c787e28
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:3644916a81304ae580c3abb35c575ca28e3830f9a61500af8af6df598b3bc812
     repoid: rhel-9-for-s390x-appstream-eus-rpms__9_DOT_4
-    size: 689143
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/g/golang-1.21.13-12.el9_4.s390x.rpm
+    size: 689439
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/g/golang-1.21.13-13.el9_4.s390x.rpm
   - name: golang
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:4cec96210ddefe735ca55a0d838032ab3a0fc0394da235b8259f41e18f1c22c2
@@ -6358,13 +6456,20 @@ arches:
     size: 1324427
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-1.25.5-2.el9_7.s390x.rpm
+  - name: golang
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:0b66927acf151c5874ef51ac7f994ebae8fd979617cac47700d16b5c6c6b50a7
+    repoid: rhocp-4.22-for-rhel-9-s390x-rpms
+    size: 1324350
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-1.25.7-1.el9_7.s390x.rpm
   - name: golang-bin
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:efe2d06d33028da46cf047675b9e6ebf555f09c5a5701596526ea6e4389ee4b0
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:6849a952b9d1cfd1737e68981d83356db7f2b909e39d6e152b0ffb521217e8ca
     repoid: rhel-9-for-s390x-appstream-eus-rpms__9_DOT_4
-    size: 56371778
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/g/golang-bin-1.21.13-12.el9_4.s390x.rpm
+    size: 56368620
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/g/golang-bin-1.21.13-13.el9_4.s390x.rpm
   - name: golang-bin
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:8865d1f0c25535c4492b54dcfa0bec28d8dac6c7c084c704b959f422ff87771c
@@ -6372,6 +6477,13 @@ arches:
     size: 36919881
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-bin-1.25.5-2.el9_7.s390x.rpm
+  - name: golang-bin
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:6e06fd350f7670a33ff231a6495489dfa3713c386a3fcda41110c88560550eaa
+    repoid: rhocp-4.22-for-rhel-9-s390x-rpms
+    size: 36917198
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-bin-1.25.7-1.el9_7.s390x.rpm
   - name: golang-race
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:d15f5e9862b43eee8baa1f630ed47d7132638bd713371b694131b8f8190ce982
@@ -6379,13 +6491,20 @@ arches:
     size: 1740107
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-race-1.25.5-2.el9_7.s390x.rpm
+  - name: golang-race
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:bcfebd7ea64add9c829f3ecf0556a9b48d5449b4ddcd04c100452cce1614f9b0
+    repoid: rhocp-4.22-for-rhel-9-s390x-rpms
+    size: 1740013
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-race-1.25.7-1.el9_7.s390x.rpm
   - name: golang-src
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:a9717113b3c8cf95684c38c738a22fe21165a8713d137b6e86893e7c487763c5
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:52ebbc93140baddb2e4e99bcbd2a196cd59700d261acd2ba7d41fa97343c5cf8
     repoid: rhel-9-for-s390x-appstream-eus-rpms__9_DOT_4
-    size: 13069224
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/g/golang-src-1.21.13-12.el9_4.noarch.rpm
+    size: 13066849
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/g/golang-src-1.21.13-13.el9_4.noarch.rpm
   - name: golang-src
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:e7528a3ca424056dc43729472f8efb6fc8c9b04cd4f86403873db2b0e360fb4f
@@ -6393,6 +6512,13 @@ arches:
     size: 12170725
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-src-1.25.5-2.el9_7.noarch.rpm
+  - name: golang-src
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:e7bf59a08d4d4cafb27ae42015e734aacadf515883e9610fc23825a8de0688d0
+    repoid: rhocp-4.22-for-rhel-9-s390x-rpms
+    size: 12171111
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/s390x/appstream/osPackages/g/golang-src-1.25.7-1.el9_7.noarch.rpm
   - name: goversioninfo
     evr: 0:1.4.0-1.el9
     checksum: sha256:a2edb6888432efc58c9a70d62ec4365bfaea366dc6cf9ecf06f09d843c508629
@@ -6491,6 +6617,13 @@ arches:
     size: 2185933
     sourcerpm: kernel-5.14.0-427.109.1.el9_4.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-427.109.1.el9_4.s390x.rpm
+  - name: kernel-headers
+    evr: 0:5.14.0-427.111.1.el9_4
+    checksum: sha256:66c801b751f35934d5b92ad4069a72d14142db33d73057214c843d5a45c02546
+    repoid: rhel-9-for-s390x-appstream-eus-rpms__9_DOT_4
+    size: 2120209
+    sourcerpm: kernel-5.14.0-427.111.1.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/appstream/os/Packages/k/kernel-headers-5.14.0-427.111.1.el9_4.s390x.rpm
   - name: kernel-srpm-macros
     evr: 0:1.0-13.el9
     checksum: sha256:7e891fa264fb538bf4a26aa94e91ff0c3084bf2613e2061dbb6f4f0c26856777
@@ -8024,6 +8157,13 @@ arches:
     size: 25551
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/baseos/os/Packages/p/python3-3.9.18-3.el9_4.9.s390x.rpm
+  - name: python3
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:e8c87f8f624f1c4062722468548f8170dfe52fa414302c5d937095a9b793da63
+    repoid: rhel-9-for-s390x-baseos-eus-rpms__9_DOT_4
+    size: 25433
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/baseos/os/Packages/p/python3-3.9.18-3.el9_4.10.s390x.rpm
   - name: python3-audit
     evr: 0:3.1.2-2.el9
     checksum: sha256:4e6bff056785a866635f3d019ed51840f88bb3ba628079da8374fffda7046036
@@ -8164,6 +8304,13 @@ arches:
     size: 8086100
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.9.s390x.rpm
+  - name: python3-libs
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:43e9c28e61a464314e3c9af30929b27e3bac2a353d0d4a42cc09f7ff96bd5a36
+    repoid: rhel-9-for-s390x-baseos-eus-rpms__9_DOT_4
+    size: 8083226
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/s390x/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.10.s390x.rpm
   - name: python3-libselinux
     evr: 0:3.6-1.el9
     checksum: sha256:05e502adfdbb4b701ea91f03b98b9e52e8233ef74769ad151836276d7ef49044
@@ -9183,12 +9330,12 @@ arches:
     sourcerpm: gobject-introspection-1.68.0-11.el9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/g/gobject-introspection-1.68.0-11.el9.aarch64.rpm
   - name: golang
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:45560c96f3cd4e45e09940c3f1f74415de95becdcff331330927d7fb10f86961
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:44077341b1527f8bff7583a12ab2b88696ccf82b418f148b98dd39a94f6a53ac
     repoid: rhel-9-for-aarch64-appstream-eus-rpms__9_DOT_4
-    size: 689409
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/golang-1.21.13-12.el9_4.aarch64.rpm
+    size: 689186
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/golang-1.21.13-13.el9_4.aarch64.rpm
   - name: golang
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:4421b206ab8feeee39a9e70b6bb470ce686df35fd3e5b7755acb0b2163bcfcb8
@@ -9196,13 +9343,20 @@ arches:
     size: 1324240
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-1.25.5-2.el9_7.aarch64.rpm
+  - name: golang
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:31903e0b2905dd2c957e3e0b31372fe4582b70272170e3aa2b059f517f01e1f3
+    repoid: rhocp-4.22-for-rhel-9-aarch64-rpms
+    size: 1323794
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-1.25.7-1.el9_7.aarch64.rpm
   - name: golang-bin
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:4707f5bd533663291b59512287119b747c2536ac161ef5426515ace18eea866b
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:8146f37759437f238f6b56d38136726a3826de7c7d79e4500a4ef63c2e34cb53
     repoid: rhel-9-for-aarch64-appstream-eus-rpms__9_DOT_4
-    size: 54320976
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/golang-bin-1.21.13-12.el9_4.aarch64.rpm
+    size: 54323603
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/golang-bin-1.21.13-13.el9_4.aarch64.rpm
   - name: golang-bin
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:2eb8f7ec2a9e03eeea8ccc15813c901f0fdd14b13ab69dbd892718156350aa68
@@ -9210,6 +9364,13 @@ arches:
     size: 34381124
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-bin-1.25.5-2.el9_7.aarch64.rpm
+  - name: golang-bin
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:ae3708c923b831c8bfa25e2c8e184ba62b0915298d1c863bea0c3bd5df6a8c85
+    repoid: rhocp-4.22-for-rhel-9-aarch64-rpms
+    size: 34386629
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-bin-1.25.7-1.el9_7.aarch64.rpm
   - name: golang-race
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:027e619053f984747d24e47024eacc536ec0567a3dee60904fe92b87c8115c48
@@ -9217,13 +9378,20 @@ arches:
     size: 1770604
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-race-1.25.5-2.el9_7.aarch64.rpm
+  - name: golang-race
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:63bda5b76079d2128785345dec7bc9139b908e2797e7d2a11e6b538e80ff7a15
+    repoid: rhocp-4.22-for-rhel-9-aarch64-rpms
+    size: 1770537
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-race-1.25.7-1.el9_7.aarch64.rpm
   - name: golang-src
-    evr: 0:1.21.13-12.el9_4
-    checksum: sha256:a9717113b3c8cf95684c38c738a22fe21165a8713d137b6e86893e7c487763c5
+    evr: 0:1.21.13-13.el9_4
+    checksum: sha256:52ebbc93140baddb2e4e99bcbd2a196cd59700d261acd2ba7d41fa97343c5cf8
     repoid: rhel-9-for-aarch64-appstream-eus-rpms__9_DOT_4
-    size: 13069224
-    sourcerpm: golang-1.21.13-12.el9_4.src.rpm
-    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/golang-src-1.21.13-12.el9_4.noarch.rpm
+    size: 13066849
+    sourcerpm: golang-1.21.13-13.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/golang-src-1.21.13-13.el9_4.noarch.rpm
   - name: golang-src
     evr: 0:1.25.5-2.el9_7
     checksum: sha256:e7528a3ca424056dc43729472f8efb6fc8c9b04cd4f86403873db2b0e360fb4f
@@ -9231,6 +9399,13 @@ arches:
     size: 12170725
     sourcerpm: golang-1.25.5-2.el9_7.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-src-1.25.5-2.el9_7.noarch.rpm
+  - name: golang-src
+    evr: 0:1.25.7-1.el9_7
+    checksum: sha256:e7bf59a08d4d4cafb27ae42015e734aacadf515883e9610fc23825a8de0688d0
+    repoid: rhocp-4.22-for-rhel-9-aarch64-rpms
+    size: 12171111
+    sourcerpm: golang-1.25.7-1.el9_7.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/osPackages/g/golang-src-1.25.7-1.el9_7.noarch.rpm
   - name: goversioninfo
     evr: 0:1.4.0-1.el9
     checksum: sha256:aea1c51f52c5d418aa6c306ecb58b6165189dca8d0943d7f78ea88ada8e15bcc
@@ -9329,6 +9504,13 @@ arches:
     size: 2157593
     sourcerpm: kernel-5.14.0-427.109.1.el9_4.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.109.1.el9_4.aarch64.rpm
+  - name: kernel-headers
+    evr: 0:5.14.0-427.111.1.el9_4
+    checksum: sha256:e31dcc1d68de8e0cf70b9efa78a914afc7a717219673e89d7191ea8e3e294c5d
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms__9_DOT_4
+    size: 2091869
+    sourcerpm: kernel-5.14.0-427.111.1.el9_4.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.111.1.el9_4.aarch64.rpm
   - name: kernel-srpm-macros
     evr: 0:1.0-13.el9
     checksum: sha256:7e891fa264fb538bf4a26aa94e91ff0c3084bf2613e2061dbb6f4f0c26856777
@@ -10890,6 +11072,13 @@ arches:
     size: 25707
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/p/python3-3.9.18-3.el9_4.9.aarch64.rpm
+  - name: python3
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:8b7bb0f265e10aec413831aa59b05a4579fec9b2e961d4f1f1fd02e1e16604b7
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms__9_DOT_4
+    size: 25595
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/p/python3-3.9.18-3.el9_4.10.aarch64.rpm
   - name: python3-audit
     evr: 0:3.1.2-2.el9
     checksum: sha256:9ab5cce6a4a06309f752aa1e8ab4b7784bd2db3492b0261701e69e85620f89e4
@@ -11030,6 +11219,13 @@ arches:
     size: 8201086
     sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
     url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.9.aarch64.rpm
+  - name: python3-libs
+    evr: 0:3.9.18-3.el9_4.10
+    checksum: sha256:65a6249ff8fe819449716cf59fbb68e06d48ccc021759779d4ad811e8550d3bb
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms__9_DOT_4
+    size: 8202150
+    sourcerpm: python3.9-3.9.18-3.el9_4.10.src.rpm
+    url: https://rhsm-pulp.corp.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.10.aarch64.rpm
   - name: python3-libselinux
     evr: 0:3.6-1.el9
     checksum: sha256:2a1b5224d996daa3394d3ea5e2e180b813af1b58e46ab502cb73a6e54f5eb760
